@@ -1,4 +1,6 @@
-FROM khalosa/rasa-aarch64:3.5.2
+FROM rasa/rasa:latest
+
+USER root
 
 COPY . /app
 
